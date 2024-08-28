@@ -3,10 +3,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Amazon</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Project</title>
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    html,body{
+      width: 100%;
+      height: 100%;
+    }
+    #main{
+      text-align: center;
+    }
+    #main h1{
+      text-align: center;
+    }
+    #main #form {
+      width: 700px;
+      height: 500px;
+      background-color: grey;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      
+    }
+    button{
+      width: 150px;
+      height: 30px;
+      background-color: green;
+      border-radius: 10px;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-  <h> hello world</h>
+  <div id="main">
+    <h1>We value your suggetions!</h1>
+    <div id="form">
+      <form action="./action">
+      <label for="name">Name</label>
+      <input id="name" type="text" placeholder="name">
+      <br>
+      <label for="name">Email</label>
+      <input id="name" type="text" placeholder="email">
+      <br/>
+       <lable1 for="address">address</lable1>
+       <input add="address" type="text" placeholder="address">
+      <br>
+      <label for="">Feedback</label>
+      <br>
+      <textarea name="" id="" cols="20" rows="10"></textarea>
+      <br>
+      <button>Submit</button>
+    </form>
+    </div>
+
+  </div>
 </body>
 </html>
